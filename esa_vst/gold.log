@@ -1,0 +1,25 @@
+---- LDMXSW: Loading configuration --------
+ [ TestBeamHitProducer ] In configure(), got parameters 
+	 inputCollection = QIEsamplesPad1
+	 inputPassName = 
+	 outputCollection = testBeamHitsPad1
+	 startSample = 10
+	 pulseWidth = 5
+	 pulseWidthLYSO = 5
+	 gain[0] = 2e+06
+	 nInstrumentedChannels = 24
+	 doCleanHits = 0
+	 pedestals[0] = -2
+	 MIPresponse[0] = 1	.
+---- LDMXSW: Configuration load complete  --------
+---- LDMXSW: Starting event processing --------
+[ Process ] 0  info: RunHeader { run: 1, numTries: 0, detectorName: , description: 
+  intParameters: 
+    RandomNumberMasterSeed[test] = 1
+  floatParameters: 
+  stringParameters: 
+    Pass = test, version = v4.8.3
+}
+[TrackerPedestalProvider] Loaded 2560 channel pedestals from 'pedestals.json'
+[ SiStripWaveformBuilder ] 10000  info: Fit summary: 307003 attempted, 307003 converged, 0 failed (0%)
+---- LDMXSW: Event processing complete  --------
