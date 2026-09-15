@@ -13,12 +13,12 @@
 	 MIPresponse[0] = 1	.
 ---- LDMXSW: Configuration load complete  --------
 ---- LDMXSW: Starting event processing --------
-[ Process ] 0  info: RunHeader { run: 1, numTries: 0, detectorName: , description: 
+[ Process ] 0  info: RunHeader { run: 1, numTries: 0, completed: false, detectorName: , description: 
   intParameters: 
     RandomNumberMasterSeed[test] = 1
   floatParameters: 
   stringParameters: 
-    Pass = test, version = v4.8.3
+    Pass = test, version = v4.9.0
 }
 [TrackerPedestalProvider] Loaded 2560 channel pedestals from 'pedestals.json'
 [ SiStripWaveformBuilder ] 10000  info: Fit summary: 307003 attempted, 307003 converged, 0 failed (0%)
