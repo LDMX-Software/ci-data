@@ -1,0 +1,34 @@
+---- LDMXSW: Loading configuration --------
+Setting detector for tracking to ldmx-det-v15-8gev
+Setting detector for tracking to ldmx-esa25-v1
+ [ TestBeamHitProducer ] In configure(), got parameters 
+	 inputCollection = QIEsamplesPad1
+	 inputPassName = 
+	 outputCollection = testBeamHitsPad1
+	 startSample = 10
+	 pulseWidth = 5
+	 pulseWidthLYSO = 5
+	 gain[0] = 2e+06
+	 nInstrumentedChannels = 24
+	 doCleanHits = 0
+	 pedestals[0] = -2
+	 MIPresponse[0] = 1	.
+---- LDMXSW: Configuration load complete  --------
+---- LDMXSW: Starting event processing --------
+[ SiStripWaveformFitProcessor ] 0  info: SiStripWaveformFitProcessor configured:  daq_map='/home/runner/work/ldmx-sw/ldmx-sw/install/data/Tracking/daqmap_esa25_slice_test.json' (4 sensors)  shape=CRRC  tp=45 ns  T scan [-50, auto] ns  step=1 ns
+[ StripClusterProcessor ] 0  info: StripClusterProcessor loaded DAQ map from '/home/runner/work/ldmx-sw/ldmx-sw/install/data/Tracking/daqmap_esa25_slice_test.json' (4 layers) for centre-strip offsets
+[ StripClusterProcessor ] 0  info: StripClusterProcessor configured:  seed_thr=4  nbr_thr=3  cls_thr=4  noise=49.152 ADC  pitch=0.06 mm  sigma_v=20 mm
+[ Process ] 0  info: RunHeader { run: 1, numTries: 0, completed: false, detectorName: , description: 
+  intParameters: 
+    RandomNumberMasterSeed[test] = 1
+  floatParameters: 
+  stringParameters: 
+    Pass = test, version = v4.9.2
+}
+[TrackerPedestalProvider] Loaded 2560 channel pedestals from 'pedestals.json'
+[ TrackingGeometry ] 1  warn: TrackingGeometry: no MagneticField/File auxiliary entry found in '/home/runner/work/ldmx-sw/ldmx-sw/install/data/detectors/ldmx-esa25-v1/detector.gdml' — tracking will use a zero B-field
+[ TrackersTrackingGeometry ] 1  info: x_length = 84.953 y_length = 480 z_length = 240
+[ TrackersTrackingGeometry ] 1  info: x_length = 222 y_length = 480 z_length = 240
+[ SiStripWaveformFitProcessor ] 10000  info: Fit summary: 307003 attempted, 307003 converged, 0 failed (0%)
+[ SiStripWaveformFitProcessor ] 10000  info: SiStripWaveformFitProcessor summary: 307003 waveforms -> 307003 hits (0 unmapped, 0 out-of-range, 0 unconverged, 0 bad chi2/ndf)
+---- LDMXSW: Event processing complete  --------
