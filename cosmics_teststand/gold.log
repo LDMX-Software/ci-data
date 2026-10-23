@@ -1,0 +1,26 @@
+---- LDMXSW: Loading configuration --------
+---- LDMXSW: Configuration load complete  --------
+---- LDMXSW: Starting event processing --------
+[ APrimePhysics ] 0  info: Configuration: A' mass: 0 MeV, Dark brem enabled: NO, FCP enabled: NO, FCP mass: 0 MeV, FCP charge: 0.1 e, FCP xsec factor: 1
+[ FCPPhysics ] 0  info: FCPPhysics configuration: Enabled: NO, FCP mass: 0 MeV, FCP charge: 0.1 e, FCP PDG ID: 17
+[ APrimePhysics ] 0  info: Initializing A' with:, Mass: 0 MeV, PDG ID: 622, Lifetime (tau): -1, Decay mode: no_decay, Decay product ID: 11 (e+e-)
+[ APrimePhysics ] 0  info: FCP not enabled, A' conversion process not registered
+[ GenieNuclearPhysics ] 0  info: GENIE electronuclear process is not enabled
+[ HepMCReader ] 0  info: Opening HepMC file /home/runner/work/ldmx-sw/ldmx-sw/ci-data/cosmics_teststand/corsika8_muons.hepmc3.root
+[ HepMCReader ] 0  info: Detected HepMC3 ROOT tree format
+[ Process ] 0  info: RunHeader { run: 1, numTries: 0, completed: false, detectorName: ldmx-esa-cosmic26-v1, description: 
+  intParameters: 
+    Included Scoring Planes = 0
+    RandomNumberMasterSeed[test] = 1
+    Use Random Seed from Event Header = 0
+  floatParameters: 
+  stringParameters: 
+    Geant4 revision = 
+    Gen0 Class = simcore::generators::HepMCPrimaryGenerator
+    Gen0 HepMC File = /home/runner/work/ldmx-sw/ldmx-sw/ci-data/cosmics_teststand/corsika8_muons.hepmc3.root
+    Pass = test, version = v4.9.7
+    SIM revision = 86eefac2309a3a40259bca0ebfded8a5fae68a22
+    SIM version = v4.9.7
+}
+[ SimulatorBase ] 20000  warn: Started 20000 events to produce 20000 events.
+---- LDMXSW: Event processing complete  --------
