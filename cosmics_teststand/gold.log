@@ -19,7 +19,7 @@
     Gen0 Class = simcore::generators::HepMCPrimaryGenerator
     Gen0 HepMC File = /home/vamitamas/iss2191-cosmics-teststand/ldmx-sw/ci-data/cosmics_teststand/corsika8_muons.hepmc3.root
     Pass = test, version = v4.9.6
-    SIM revision = bc2d774d106e03704c36167350e2ad20b54a81aa
+    SIM revision = 2a2468c98129b89b63362a6dae592a5f4a5cecc0
     SIM version = v4.9.6
 }
 [ SimulatorBase ] 20000  warn: Started 20000 events to produce 20000 events.
