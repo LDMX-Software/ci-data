@@ -1,0 +1,33 @@
+---- LDMXSW: Loading configuration --------
+---- LDMXSW: Configuration load complete  --------
+---- LDMXSW: Starting event processing --------
+[ Process ] 0  info: RunHeader { run: 271, numTries: 0, completed: false, detectorName: , description: 
+  intParameters: 
+    RandomNumberMasterSeed[test] = 271
+  floatParameters: 
+  stringParameters: 
+    Pass = test, version = v4.9.8
+}
+[ ecal_l2_decoder ] 10000  info: ECON-D decoding summary for ecal
+[ ecal_l2_decoder ] 10000  info:   frames seen: 10000, digis filled: 10000
+[ ecal_l2_decoder ] 10000  info:   packets seen: 50000, decoded: 50000, empty: 0, corrupt (skipped): 0
+[ ecal_l2_decoder ] 10000  info:   decoded links with bad Stat bits: 50
+[ ecal_l2_decoder ] 10000  info:   L1A jumps between samples: 0
+[ ecal_l3_decoder ] 10000  info: ECON-D decoding summary for ecal
+[ ecal_l3_decoder ] 10000  info:   frames seen: 10000, digis filled: 10000
+[ ecal_l3_decoder ] 10000  info:   packets seen: 50000, decoded: 50000, empty: 0, corrupt (skipped): 0
+[ ecal_l3_decoder ] 10000  info:   L1A jumps between samples: 0
+[ ecal_l2_det ] 10000  info: ECON-D decoding summary for ecal
+[ ecal_l2_det ] 10000  info:   frames seen: 10000, digis filled: 10000
+[ ecal_l2_det ] 10000  info:   packets seen: 50000, decoded: 50000, empty: 0, corrupt (skipped): 0
+[ ecal_l2_det ] 10000  info:   decoded links with bad Stat bits: 50
+[ ecal_l2_det ] 10000  info:   L1A jumps between samples: 0
+[ ecal_l3_det ] 10000  info: ECON-D decoding summary for ecal
+[ ecal_l3_det ] 10000  info:   frames seen: 10000, digis filled: 10000
+[ ecal_l3_det ] 10000  info:   packets seen: 50000, decoded: 50000, empty: 0, corrupt (skipped): 0
+[ ecal_l3_det ] 10000  info:   L1A jumps between samples: 0
+[ hcal_decoder ] 10000  info: ECON-D decoding summary for hcal
+[ hcal_decoder ] 10000  info:   frames seen: 10000, digis filled: 10000
+[ hcal_decoder ] 10000  info:   packets seen: 50000, decoded: 50000, empty: 0, corrupt (skipped): 0
+[ hcal_decoder ] 10000  info:   L1A jumps between samples: 0
+---- LDMXSW: Event processing complete  --------
